@@ -1,0 +1,38 @@
+/*
+Theme Name: DS WordPress Assignment
+Author: jcc
+Version: 1.0
+Template: blankslate
+*/
+
+@keyframes defiantJazz {
+  0% {
+    background: #f6e6e6;
+  }
+  25% {
+    background: #fff8f4;
+  }
+  50% {
+    background: #fff;
+  }
+  75% {
+    background: #d8e9f8;
+  }
+  100% {
+    background: #e6fcfc;
+  }
+}
+
+body {
+  animation-name: defiantJazz;
+  animation-duration: 1s;
+  animation-iteration-count: 5;
+  animation-direction: alternate;
+
+  margin-top:  7%;
+  margin-left: 20%;
+}
+
+aside p {
+  font-style: italic;
+}
